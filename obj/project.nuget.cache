@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "jgcw7uhLjS3GKBf5R2iMLfGTEzJ6K9jCTpfnFXsvV61FXo78KXqFQbxbpVtOZTkfsJ9tiIbMF6ICt6+dS8MStA==",
+  "dgSpecHash": "JxWY1SMm2wiAuWCWvSC10BiqlX3mQvA8vfyrXmmSl5Ny1j2SR+ObEsYgNlco0uaeesveJvcbI6vknUW6OQiPew==",
   "success": true,
   "projectFilePath": "C:\\Users\\KORISNIK\\Desktop\\MagicVilla_VillaAPI\\MagicVilla.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\5.0.0\\microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\5.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",
     "C:\\Users\\KORISNIK\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\KORISNIK\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\KORISNIK\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\KORISNIK\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\KORISNIK\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\KORISNIK\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\KORISNIK\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
