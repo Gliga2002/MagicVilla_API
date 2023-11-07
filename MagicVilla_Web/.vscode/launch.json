@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "C#: MagicVilla_Web [https]",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}\\MagicVilla_Web.csproj",
+      "launchConfigurationId": "TargetFramework=;https"
+    }
+  ]
+}
