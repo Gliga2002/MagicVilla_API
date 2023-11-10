@@ -162,3 +162,4 @@ C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_VillaAPI\obj\Debug\net7.0\refin
 C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_VillaAPI\obj\Debug\net7.0\MagicVilla.pdb
 C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_VillaAPI\obj\Debug\net7.0\MagicVilla.genruntimeconfig.cache
 C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_VillaAPI\obj\Debug\net7.0\ref\MagicVilla.dll
+C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_VillaAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
