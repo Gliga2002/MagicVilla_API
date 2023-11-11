@@ -9,21 +9,21 @@ using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+// treba da promenis namespace MagicVilla_VillaAPI.Controllers.v1
 namespace MagicVilla_VillaAPI.Controllers
 {
 
   [Route("api/v{version:apiVersion}/VillaNumberAPI")]
   [ApiController]
   [ApiVersion("1.0")]
-  [ApiVersion("2.0")]
-  public class VillaNumberAPIController : ControllerBase
+  public class VillaNumberAPIv1Controller : ControllerBase
   {
 
     private readonly IVillaNumberRepository _dbVillaNumber;
     private readonly IVillaRepository _dbVilla;
     private readonly IMapper _mapper;
     protected APIResponse _response;
-    public VillaNumberAPIController(IVillaNumberRepository dbVillaNumber, IMapper mapper, IVillaRepository dbVilla)
+    public VillaNumberAPIv1Controller(IVillaNumberRepository dbVillaNumber, IMapper mapper, IVillaRepository dbVilla)
     {
       _dbVillaNumber = dbVillaNumber;
       _mapper = mapper;
@@ -31,9 +31,15 @@ namespace MagicVilla_VillaAPI.Controllers
       _dbVilla = dbVilla;
     }
 
+       [HttpGet("GetString")]
+      public IEnumerable<string> Get()
+      {
+          return new string[] { "String1", "String2" };
+      }
+
 
     [HttpGet]
-    [MapToApiVersion("1.0")]
+    // [MapToApiVersion("1.0")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<ActionResult<APIResponse>> GetVillaNumbers()
     {
@@ -52,14 +58,6 @@ namespace MagicVilla_VillaAPI.Controllers
       return _response;
 
     }
-
-      [MapToApiVersion("2.0")]
-      [HttpGet]
-      public IEnumerable<string> Get()
-      {
-          return new string[] { "value1", "value2" };
-      }
-
 
 
     [HttpGet("{id:int}", Name = "GetVillaNumber")]

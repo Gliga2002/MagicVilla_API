@@ -9,11 +9,12 @@ using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+// treba da promenis namespace MagicVilla_VillaAPI.Controllers.v1
 namespace MagicVilla_VillaAPI.Controllers
 {
 
   //[Route("api/[controller]")]
-  [Route("api/VillaAPI")]
+  [Route("api/v{version:apiVersion}/VillaAPI")]
   [ApiController]
   [ApiVersion("1.0")]
   public class VillaAPIController : ControllerBase
