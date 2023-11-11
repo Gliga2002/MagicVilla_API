@@ -35,3 +35,8 @@ C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\MagicVilla
 C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\MagicVilla_Utility.pdb
 C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.csproj.CopyComplete
 C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dejan\Desktop\MagicVilla_API\MagicVilla_Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
